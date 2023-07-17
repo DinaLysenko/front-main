@@ -20,7 +20,7 @@ export const HW3 = () => {
   };
 
   const handleSave = (currentText:string) => {
-    setTexts([...texts, currentText])
+    setTexts([ currentText, ...texts])
     setCurrentText('')// А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
   };
 
